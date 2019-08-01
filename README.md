@@ -4,34 +4,35 @@ A python function that returns whether an iterable has at least one True value. 
 
 So far the test data returns:
 
-Empty data frame returns False
 
-Full data frame returns True
+                                Empty data frame returns False
 
-Empty list returns False
+                                Full data frame returns True
 
-Full list returns True
+                                Empty list returns False
 
-Empty list of lists returns False
+                                Full list returns True
 
-False list of lists returns True because at least one list is populated
+                                Empty list of lists returns False
 
-True list of lists returns True
+                                False list of lists returns True because at least one list is populated
 
-False list returns False
+                                True list of lists returns True
 
-Normal dict returns True
+                                False list returns False
 
-False dict returns False
+                                Normal dict returns True
 
-True dict returns True
+                                False dict returns False
 
-True returns True
+                                True dict returns True
 
-False returns False
+                                True returns True
 
-0 returns False
+                                False returns False
 
-0.6 returns True
+                                0 returns False
 
-'Cat' returns True
+                                0.6 returns True
+
+                                'Cat' returns True
