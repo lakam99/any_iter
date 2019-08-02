@@ -39,4 +39,4 @@ def test():
     print_test("'Cat'", 'Cat')
     print_test("Blank string", '')
     
-    test()
+test()
