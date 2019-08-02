@@ -37,5 +37,6 @@ def test():
     print_test("0", 0)
     print_test("0.6", 0.6)
     print_test("'Cat'", 'Cat')
+    print_test("Blank string", '')
     
     test()
