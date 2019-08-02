@@ -21,3 +21,4 @@ So far the test data returns:
           0 returns False
           0.6 returns True
           'Cat' returns True
+          Blank string returns False
