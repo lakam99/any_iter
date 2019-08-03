@@ -26,3 +26,6 @@ So far the test data returns:
           0.6 returns True
           'Cat' returns True
           Blank string returns False
+
+
+Feel free to modify test.py to add additional test cases!
