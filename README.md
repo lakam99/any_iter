@@ -16,6 +16,8 @@ So far the test data returns:
           Normal dict returns True
           False dict returns False
           True dict returns True
+          Empty numpy array returns False
+          Full numpy array returns True
           True returns True
           False returns False
           0 returns False
