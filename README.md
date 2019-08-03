@@ -28,4 +28,4 @@ So far the test data returns:
           Blank string returns False
 
 
-Feel free to modify test.py to add additional test cases!
+Feel free to modify test._cases.py to add additional test cases!
