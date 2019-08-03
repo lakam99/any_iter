@@ -21,6 +21,8 @@ def test():
     true_dict = {True: False}
     empty_np_array = np.array([])
     full_np_array = np.array([1,2,3,4,5])
+    false_np_array = np.array([False, False, False])
+    true_np_array = np.array([False, True, False])
     
 
     print_test("Empty data frame", empty_data_frame)
@@ -37,6 +39,8 @@ def test():
     print_test("True dict", true_dict)
     print_test("Empty numpy array", empty_np_array)
     print_test("Full numpy array", full_np_array)
+    print_test("False numpy array", false_np_array)
+    print_test("True numpy array", true_np_array)
     print_test("True", True)
     print_test("False", False)
     print_test("0", 0)
