@@ -1,4 +1,5 @@
 from pandas import DataFrame
+import numpy as np
 from any_iter import any_iter
 
 def print_test(prompt, arg, _exit="\n\n"):
@@ -18,6 +19,8 @@ def test():
     normal_dict = {"Cat": 14}
     false_dict = {False: True}
     true_dict = {True: False}
+    empty_np_array = np.array([])
+    full_np_array = np.array([1,2,3,4,5])
     
 
     print_test("Empty data frame", empty_data_frame)
@@ -32,6 +35,8 @@ def test():
     print_test("Normal dict", normal_dict)
     print_test("False dict", false_dict)
     print_test("True dict", true_dict)
+    print_test("Empty numpy array", empty_np_array)
+    print_test("Full numpy array", full_np_array)
     print_test("True", True)
     print_test("False", False)
     print_test("0", 0)
